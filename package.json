@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/princen02/teamProfileGenerator/issues"
   },
-  "homepage": "https://github.com/princen02/teamProfileGenerator#readme"
+  "homepage": "https://github.com/princen02/teamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
