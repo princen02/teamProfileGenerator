@@ -1,0 +1,22 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "node js backend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princen02/teamProfileGenerator.git"
+  },
+  "keywords": [
+    "inqueiry"
+  ],
+  "author": "Prince Ndebele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princen02/teamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/princen02/teamProfileGenerator#readme"
+}
