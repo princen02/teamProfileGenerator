@@ -64,9 +64,9 @@ function hireManager(){
   <div class="card-body">
     <h5 class="card-title">Manager</h5>
     <h6 class="card-subtitle mb-2 text-muted">${newManager.name}</h6>
-    <p class="card-text">${newManager.id}</p>
-    <p class="card-text">${newManager.officeNumeber}</p>
-    <a href="mail:${newManager.email}" class="card-link">${newManager.email}</a>
+    <p class="card-text">ID:${newManager.id}</p>
+    <p class="card-text">Office Number: ${newManager.officeNumeber}</p>
+    <a href="mail:${newManager.email}" class="card-link">Contact: ${newManager.email}</a>
     <a href="#" class="card-link">Another link</a>
   </div>
 </div>
@@ -103,10 +103,10 @@ function hireEngineer(){
   <div class="card-body">
     <h5 class="card-title">Engineer</h5>
     <h6 class="card-subtitle mb-2 text-muted">${newEngineer.name}</h6>
-    <p class="card-text">${newEngineer.id}</p>
-    <p class="card-text">${newEngineer.officeNumeber}</p>
-    <a href="mail:${newEngineer.email}" class="card-link">${newEngineer.email}</a>
-    <a href="#" class="card-link">Another link</a>
+    <p class="card-text">ID:${newEngineer.id}</p>
+    <p class="card-text">Github : <a href="${newEngineer.github}">Profile</a></p>
+    <a href="mail:${newEngineer.email}" class="card-link">Contact: ${newEngineer.email}</a>
+  
   </div>
 </div>
        `
@@ -142,9 +142,9 @@ function hireIntern(){
   <div class="card-body">
     <h5 class="card-title">Intern</h5>
     <h6 class="card-subtitle mb-2 text-muted">${newIntern.name}</h6>
-    <p class="card-text">${newIntern.id}</p>
-    <p class="card-text">${newIntern.officeNumeber}</p>
-    <a href="mail:${newIntern.email}" class="card-link">${newIntern.email}</a>
+    <p class="card-text">ID:${newIntern.id}</p>
+    <p class="card-text">School: ${newIntern.schoolName}</p>
+    <a href="mail:${newIntern.email}" class="card-link">Contact: ${newIntern.email}</a>
     <a href="#" class="card-link">Another link</a>
   </div>
 </div>
