@@ -4,8 +4,8 @@
   "description": "node js backend application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "test": "jest --verbose tests/*",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/princen02/teamProfileGenerator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
   }
 }
