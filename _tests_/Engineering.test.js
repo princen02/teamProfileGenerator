@@ -13,6 +13,6 @@ test("Test Engineer constructor Email",() => {
     expect(testEngineer.getEmail()).toBe("Prince@gmail.com")
 })
 test("Test Engineer constructor Github",() => {
-    const testEngineer = new github("Prince", 123, "Prince@gmail.com","princen02")
-    expect(testGithub.getGithub()).toBe("princen02")
+    const testEngineer = new Engineer("Prince", 123, "Prince@gmail.com","princen02")
+    expect(testEngineer.getGithub()).toBe("princen02")
 })
